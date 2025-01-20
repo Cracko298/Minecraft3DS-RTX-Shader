@@ -1,10 +1,5 @@
-; Minecraft - New Nintendo 3DS Edition 
-; renderchunk.shbin
 
-; Handcoded by ENDERMANYK
-
-; Uniforms
-.fvec WORLDVIEWPROJ[4], WORLDVIEW[4], PROJ[4]  ;uniform MAT4 WORLDVIEWPROJ, uniform MAT4 WORLDVIEW, uniform MAT4 PROJ
+.fvec WORLDVIEWPROJ[4], WORLDVIEW[4], PROJ[4]
 .fvec FOG_COLOR                                ;uniform vec4 FOG_COLOR;
 .fvec FOG_CONTROL                              ;uniform vec2 FOG_CONTROL;
 .fvec RENDER_DISTANCE                          ;uniform float RENDER_DISTANCE;
